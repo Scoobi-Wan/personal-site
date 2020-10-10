@@ -1,8 +1,49 @@
 @charset "UTF-8";
 
 #profilePhoto {
-	height: 300px;
-	width: 200px;
-	
+	height: 360px;
+	width: 240px;
+	float: right;
+	border-style: solid;
+	margin-right: 125px;
+	margin-top: 40px;
+	margin-bottom: -50px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 50%;
 	
 }
+
+
+
+
+
+
+
+
+#myName {
+	margin-top: 220px;
+	margin-left: 50px;
+	font-size: 130px;
+	margin-bottom: -100px;
+	font-family: "Playfair Display", Times, serif;
+	
+}
+
+#softDev {
+	font-size: 23px;
+	margin-top: 318px;
+	margin-left: 40px;
+}
+
+h1 {
+	float: left;
+	text-align: left;
+}
+
+h2 {
+	float: left;
+	text-align: left;
+}
+
+
