@@ -1,50 +1,15 @@
 @charset "UTF-8";
 
-#profilePhoto {
-	height: 360px;
-	width: 240px;
-	border-style: solid;
-	margin-top: 30px;
-	margin-right: 0px;
-	overflow: hidden;
-	position: relative;
-	border-radius: 50%;
-	margin-left: 40px;
-	
-}
-
-#hrBreak {
-	margin-top: -165px;
-}
-
-
-
-#myName {
-	margin-top: 140px;
-	margin-left: 50px;
-	font-size: 130px;
-	margin-bottom: -100px;
-	font-family: "Playfair Display", Times, serif;
-	
-}
-
-#softDev {
-	font-size: 23px;
-	margin-top: 50px;
-	margin-left: 675px;
-}
 
 
 
 h1 {
 	float: left;
 	text-align: left;
+	
 }
 
-h2 {
-	float: left;
-	text-align: left;
-}
+
 
 
 
