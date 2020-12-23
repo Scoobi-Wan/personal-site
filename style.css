@@ -1,11 +1,22 @@
+@charset "UTF-8";
+
+html {
+	background: linear-gradient(45deg, #323334 5%, #6303A2 0%, transparent 40%), 
+	repeating-linear-gradient(45deg, #fc03f8, #323334, transparent 20px, transparent 180px),
+	repeating-linear-gradient(-45deg, #fc03f8, #00dbfc, transparent 20px, transparent 240px), #77B9F7;
+	opacity: .9;
+	color: white;
+}
+
 h1 {
   font-size: 25px;
   float: left;
 }
 
 .topBar {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid #8D8B8B;
   height: 50px;
+  
 }
 
 .topBar .linkedIn {
@@ -23,13 +34,13 @@ h1 {
 }
 
 .profile {
-  border-style: solid;
+ 
   height: 700px;
 }
 
 .profile h3 {
   font-size: 80px;
-  padding: 100px 0px 0px 150px; 
+  padding: 200px 0px 0px 150px; 
   width: 500px;
   
   
@@ -45,8 +56,8 @@ h1 {
 
 .profile .profilePicture {
   float: right;
-  margin-top: -100px;
+  margin-top: -250px;
   width: 200px;
-  height: 400px;
-  padding: 20px 100px 0px 0px;
+  height: 300px;
+  padding: 0px 100px 0px 0px;
 }
