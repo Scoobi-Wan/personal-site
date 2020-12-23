@@ -1,18 +1,52 @@
-@charset "UTF-8";
-
-
-html {
-	background-color: #292929;
-}
-
 h1 {
-	float: left;
-	text-align: left;
-	
+  font-size: 25px;
+  float: left;
 }
 
+.topBar {
+  border-bottom: 2px solid black;
+  height: 50px;
+}
 
+.topBar .linkedIn {
+  float: right;
+  font-size: 20px;
+  margin-right: 15px;
+  padding-top: 15px;
+}
 
+.topBar .gitHub {
+  float: right;
+  font-size: 20px;
+  margin-right: 25px;
+  padding-top: 15px;
+}
 
+.profile {
+  border-style: solid;
+  height: 700px;
+}
 
+.profile h3 {
+  font-size: 80px;
+  padding: 100px 0px 0px 150px; 
+  width: 500px;
+  
+  
+}
 
+.profile h2 {
+  margin-top: -80px;
+  padding: 0px 0px 0px 150px;
+  font-size: 20px;
+  width: 500px;
+  
+}
+
+.profile .profilePicture {
+  float: right;
+  margin-top: -100px;
+  width: 200px;
+  height: 400px;
+  padding: 20px 100px 0px 0px;
+}
