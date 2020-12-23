@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 
-
+html {
+	background-color: #292929;
+}
 
 h1 {
 	float: left;
