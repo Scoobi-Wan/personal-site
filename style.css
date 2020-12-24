@@ -1,63 +1,87 @@
 @charset "UTF-8";
 
-html {
-	background: linear-gradient(45deg, #323334 5%, #6303A2 0%, transparent 40%), 
-	repeating-linear-gradient(45deg, #fc03f8, #323334, transparent 20px, transparent 180px),
-	repeating-linear-gradient(-45deg, #fc03f8, #00dbfc, transparent 20px, transparent 240px), #77B9F7;
-	opacity: .9;
-	color: white;
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.PSC {
+	color: #24D9E2;
+	font-weight: normal;
+}
+
+.PSC a {
+	display: block;
+	padding: 0 1em;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.nav-container {
+	background: #661EE0;
+}
+
+.left-nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	color: #FFAA00;
+	padding: 2em;
+	font-family: kefa;	
+	font-size: 20px;
+	font-weight: bold;
 }
 
 h1 {
-  font-size: 25px;
-  float: left;
+	margin: 0px;
 }
 
-.topBar {
-  border-bottom: 1px solid #8D8B8B;
-  height: 50px;
-  
+body {
+	margin: 0px;
 }
 
-.topBar .linkedIn {
-  float: right;
-  font-size: 20px;
-  margin-right: 15px;
-  padding-top: 15px;
+.socials {
+	display: none;
+	
+	
 }
 
-.topBar .gitHub {
-  float: right;
-  font-size: 20px;
-  margin-right: 25px;
-  padding-top: 15px;
+.socials ul {
+	display: flex;
 }
 
-.profile {
- 
-  height: 700px;
+.landing {
+	background: #7424FF;
+	color: white;
+	display: grid;
+	text-align: center;
+	padding: 4em;
 }
 
-.profile h3 {
-  font-size: 80px;
-  padding: 200px 0px 0px 150px; 
-  width: 500px;
-  
-  
+h3 {
+	font-size: 50px;
+	font-family: DIN Condensed;
 }
 
-.profile h2 {
-  margin-top: -80px;
-  padding: 0px 0px 0px 150px;
-  font-size: 20px;
-  width: 500px;
-  
-}
-
-.profile .profilePicture {
-  float: right;
-  margin-top: -250px;
-  width: 200px;
-  height: 300px;
-  padding: 0px 100px 0px 0px;
+h2 {
+	font-size: 15px;	
+	margin-top	: -3em;
+	font-family: kefa;
 }
