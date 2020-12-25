@@ -26,7 +26,7 @@ ul {
 }
 
 .nav-container {
-	background: #661EE0;
+	background: #221443;
 }
 
 .left-nav {
@@ -43,8 +43,8 @@ header {
 	justify-content: space-between;
 	margin: 0px;
 	color: #FFAA00;
-	padding: 2em;
-	font-family: kefa;	
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	font-family: Futura;	
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -60,15 +60,15 @@ body {
 .socials {
 	display: none;
 	
-	
 }
 
 .socials ul {
 	display: flex;
+	
 }
 
 .landing {
-	background: #7424FF;
+	background: #2B1857;
 	color: white;
 	display: grid;
 	text-align: center;
@@ -83,5 +83,35 @@ h3 {
 h2 {
 	font-size: 15px;	
 	margin-top: -3em;
-	font-family: kefa;
+	font-family: Futura;
+	color: #24D9E2;
+}
+
+@media only screen and (min-width: 720px) {
+	
+	.socials {
+		display: flex;
+		padding-left: 2em;
+	}
+	
+	.socials a {
+		display: block;
+		padding: 1.2em 1.2em;
+	}
+	
+	.right-nav {
+		background: white;
+		display: grid;
+		margin-right: -2em;
+		margin-top: -1.5em;
+		margin-bottom: -1.5em;	
+		width: 40%
+		
+		
+	}
+	
+	.PSC {
+		margin-right: 2em;
+	}
+	
 }
