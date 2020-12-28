@@ -33,7 +33,6 @@ ul {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	height: 1000px;
 	
 }
 
@@ -74,6 +73,7 @@ body {
 	display: grid;
 	text-align: center;
 	padding: 4em;
+	height: 1000px;
 }
 
 h3 {
