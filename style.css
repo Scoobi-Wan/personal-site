@@ -27,6 +27,7 @@ ul {
 
 .nav-container {
   background: #1e1f30;
+  width: 100vw;
 }
 
 .left-nav {
@@ -34,6 +35,10 @@ ul {
   display: flex;
   justify-content: space-between;
   
+}
+
+.left-landing {
+  width: 100%;
 }
 
 
@@ -55,6 +60,11 @@ h1 {
 body {
   margin: 0px;
   height: 2000px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .socials {
@@ -103,7 +113,7 @@ h2 {
   .right-nav {
     background: white;
     display: grid;
-    margin-right: -2em;
+    margin-right: -10em;
     margin-top: -1.5em;
     margin-bottom: -1.5em;  
     width: 40%;
@@ -117,7 +127,25 @@ h2 {
 
   .right-landing {
     background: white;
-    width: 40%;
+    width: 45%;
+    padding: 0;
+    margin-right: -2.3em;
+  }
+
+
+  .landing {
+    display: flex;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    margin-right: -10em;
+    margin-top: -1.5em;
+    margin-bottom: -1.5em; 
   }
   
+}
+
+@media only screen and (min-width: 1425px) {
+  .right-landing {
+    width: 40%;
+  }
+
 }
