@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 * {
         margin: 0;
         padding: 0;
@@ -54,6 +53,10 @@ body {
 nav {
   display: flex;
   background-color: #1e1f2e;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
 }
 
 #Projects_About_Contact {
@@ -107,7 +110,7 @@ nav {
   background-color: #8d99ae;
 }
 
-#projects header {
+header {
   font-size: 60px;
   font-family: 'Catamaran', sans-serif;
   padding-left: 100px;
@@ -127,4 +130,30 @@ nav {
   padding-right: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+#about {
+  height: 1000px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#about-p {
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  line-height: 200%;
+}
+
+#about-header {
+  color: #2b2d42;
+}
+
+#contact{
+  height: 1000px;
+  background-color: #ef233c;
+}
+
+#contact-header{
+  color: #edf2f4;
 }
