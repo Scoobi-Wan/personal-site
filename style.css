@@ -169,4 +169,8 @@ header {
   #Projects_About_Contact{
     width: 100%;
   }
+        
+  #Projects {
+    height: 1800px;
+  }
 }
