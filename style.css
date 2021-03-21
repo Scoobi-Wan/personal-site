@@ -18,6 +18,7 @@ h1 {
   font-family: 'Catamaran', sans-serif;
   color: #f1faee;
   padding-top: 200px;
+          display: block;
 }
 
 body {
