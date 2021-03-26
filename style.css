@@ -17,6 +17,9 @@ h1 {
   padding-top: 200px;
 }
 
+body {
+   /* #3e1ea8; */
+}
 
 #welcome-section {
   height: 100vh;
@@ -86,7 +89,7 @@ a:hover { text-shadow: 0 0 5px #ff0000; }
   width: 37%;
   display: flex;
   justify-content: flex-end;
-  margin-right: 40px;
+  margin-right: 50px;
   align-items: center;
 }
 
