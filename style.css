@@ -9,16 +9,12 @@
  }
 
 
-img {
-  height: 420px;
-}
 
 h1 {
   font-size: 90px;
   font-family: 'Catamaran', sans-serif;
   color: #f1faee;
   padding-top: 200px;
-          display: block;
 }
 
 body {
@@ -29,9 +25,9 @@ body {
   height: 100vh;
   text-align: center;
   padding-top: 0px;
-  color: white;
+  color: #f1faee;
   background-color: #2b2d42;
-
+  display: block;
 }
 
 #intro {
@@ -72,7 +68,10 @@ nav {
   padding-left: 60px;
   font-size: 22px;
   color: #8d99ae;
+  
 }
+
+a:hover { text-shadow: 0 0 5px #ff0000; }
 
 .nav-link {
   text-decoration: none;
@@ -123,14 +122,20 @@ header {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 20%;
 }
+
 .project-tile {
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
+    max-width: 100%;
+  height: auto;
+}
+
+.project-tile img {
+
 }
 
 #about {
@@ -169,9 +174,5 @@ header {
   }
   #Projects_About_Contact{
     width: 100%;
-  }
-        
-  #Projects {
-    height: 2300px;
   }
 }
