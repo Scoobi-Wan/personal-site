@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Scoobi-Wan.github.io/static/css/main.b7ca4fab.chunk.css",
+    "main.js": "/Scoobi-Wan.github.io/static/js/main.8ac5847a.chunk.js",
+    "main.js.map": "/Scoobi-Wan.github.io/static/js/main.8ac5847a.chunk.js.map",
+    "runtime-main.js": "/Scoobi-Wan.github.io/static/js/runtime-main.a38993f8.js",
+    "runtime-main.js.map": "/Scoobi-Wan.github.io/static/js/runtime-main.a38993f8.js.map",
+    "static/js/2.d5a1cded.chunk.js": "/Scoobi-Wan.github.io/static/js/2.d5a1cded.chunk.js",
+    "static/js/2.d5a1cded.chunk.js.map": "/Scoobi-Wan.github.io/static/js/2.d5a1cded.chunk.js.map",
+    "static/js/3.51efe403.chunk.js": "/Scoobi-Wan.github.io/static/js/3.51efe403.chunk.js",
+    "static/js/3.51efe403.chunk.js.map": "/Scoobi-Wan.github.io/static/js/3.51efe403.chunk.js.map",
+    "index.html": "/Scoobi-Wan.github.io/index.html",
+    "static/css/main.b7ca4fab.chunk.css.map": "/Scoobi-Wan.github.io/static/css/main.b7ca4fab.chunk.css.map",
+    "static/js/2.d5a1cded.chunk.js.LICENSE.txt": "/Scoobi-Wan.github.io/static/js/2.d5a1cded.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Scoobi-Wan.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a38993f8.js",
+    "static/js/2.d5a1cded.chunk.js",
+    "static/css/main.b7ca4fab.chunk.css",
+    "static/js/main.8ac5847a.chunk.js"
+  ]
+}
